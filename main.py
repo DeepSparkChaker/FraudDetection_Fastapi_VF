@@ -45,9 +45,11 @@ class ClientData(BaseModel):
 
 
 # Load  the model  a serialized .joblib file
-joblib_filename = "models/pipeline_model_lgbm_final.joblib"
-model = joblib.load(joblib_filename)
-
+#joblib_filename = "models/pipeline_model_lgbm_final.joblib"
+#model = joblib.load(joblib_filename)
+ with open('models/pipeline_model_lgbm_final.joblib', 'rb') as joblib_filename:
+    model = joblib.load(joblib_filename)
+   
 
 ## API ENDPOINTS
 ## ----------------------------------------------------------------

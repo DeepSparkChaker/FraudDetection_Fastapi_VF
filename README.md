@@ -3,6 +3,32 @@
 <<<<<<< HEAD
 In this article, we are going to build a # FraudDetection_Fastapi
 this api will detect fraud 
+Due to rapid growth in field of cashless or digital transactions, credit cards are widely used in all around the world. Credit cards providers are issuing thousands of cards to their customers. Providers have to ensure all the credit card users should be genuine and real. Any mistake in issuing a card can be reason of financial crises. Due to rapid growth in cashless transaction, the chances of number of fraudulent transactions can also increasing. A Fraud transaction can be identified by analyzing various behaviors of credit card customers from previous transaction history datasets. If any deviation is noticed in spending behavior from available patterns, it is possibly of fraudulent transaction. Data mining and machine learning techniques are widely used in credit card fraud detection. I am presenting review of various data mining and machine learning methods which are widely used for credit card fraud detections and complete this project end to end from Data Understanding to deploy Model via API .
+
+In this section we overview our selected method for engineering our solution. CRISP-DM stands for Cross-Industry Standard Process for Data Mining. It is an open standard guide that describes common approaches that are used by data mining experts. CRISP-DM includes descriptions of the typical phases of a project, including tasks details and provides an overview of the data mining lifecycle. The lifecycle model consists of six phases with arrows indicating the most important and frequent dependencies between phases.
+
+1-You will find my complete work for Ml "Fraud detection" by following those notebooks :
+
+https://www.kaggle.com/bannourchaker/frauddetection-part1-eda
+
+https://www.kaggle.com/bannourchaker/frauddetection-part2-preparation
+
+https://www.kaggle.com/bannourchaker/frauddetection-part3-modeling1-cross-validation
+
+https://www.kaggle.com/bannourchaker/frauddetection-part3-modeling2-selectbestmodel
+
+https://www.kaggle.com/bannourchaker/frauddetection-part3-modeling3-tuning
+
+https://www.kaggle.com/bannourchaker/frauddetection-part4-evaluation
+
+https://www.kaggle.com/bannourchaker/frauddetection-part4-explainai
+
+2- Deploy the models via api :
+
+-Baseline pipeline : https://github.com/DeepSparkChaker/FraudDetection_Fastapi
+
+-Advanced pipeline: https://github.com/DeepSparkChaker/FraudDetection_Fastapi_VF
+I hope it's a good and useful guide.
 
 =======
 In this article, we are going to build a # FraudDetection_Fastapi

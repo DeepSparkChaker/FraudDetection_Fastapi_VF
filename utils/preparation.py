@@ -10,7 +10,6 @@ import pandas as pd
 from typing import List, Optional, Union
 
 
-
 class CountFrequencyEncoder(BaseEstimator, TransformerMixin):
     # temp = df['card1'].value_counts().to_dict()
     # df['card1_counts'] = df['card1'].map(temp)

@@ -6,6 +6,7 @@ from fastapi import FastAPI, Request, File, UploadFile, HTTPException
 from pydantic import BaseModel
 # import nest_asyncio
 from utils.pipeline import *
+from utils.preparation import *
 
 # from typing import Any, Dict,List,Enum
 # import numpy as np  
